@@ -1,0 +1,88 @@
+body
+{
+	padding: 0;
+	margin: 0;
+	color: #e30613;
+}
+.logo
+{
+	background-color: #e30613;
+	width: 100%;
+}
+
+.container
+{
+	margin: 50px 20px 0 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#busfront
+{
+	width: 300px;
+	height: 150px;
+	border : 1px solid #cccccc;
+	border-radius: 120px 120px 0 0 ;
+}
+
+#busback
+{
+	width: 300px;
+	height: 500px;
+	border : 1px solid #cccccc;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+
+}
+.seat 
+{
+	width: 70px;
+	height: 50px;
+	border : 1px solid #cccccc;
+	border-radius: 5px;
+	font-size: 2.5rem;
+	font-weight: bold;
+	
+	text-align: center;
+	margin-right: 10px;
+
+}
+.seat:nth-child(3n)
+{
+	margin-left: 50px;
+}
+
+#qrcodereader
+{
+	width: 500px;
+	height: 500px;
+	border : 1px solid #cccccc;
+	border-radius: 5px;
+
+
+}
+#passengerinfo
+{
+	width: 300px;
+	height: 300px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+#totalpassengers
+{
+	font-weight: bold;
+	font-size: 2.5rem;
+	color: white;
+	float: right;
+}
+.occupied
+{
+	background-color: #e30613;
+	color: white;
+}
